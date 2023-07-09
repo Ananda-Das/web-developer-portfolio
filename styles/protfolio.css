@@ -61,9 +61,9 @@ nav ul li a {
 /* header style */
 .header {
   background-color: #fff8f3;
-  background-image: url("../assets/images/header_bg.png");
+  background-image: url("../assets/images/header_bg.png"), url('../assets/images/developer.png');
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right, top left;
 }
 .banner {
   padding: 30px 0px 0px 150px;
