@@ -4,53 +4,95 @@
 } */
 
 /* google fonts style */
-body{
-    font-family: 'Open Sans', sans-serif;
+body {
+  font-family: "Open Sans", sans-serif;
 }
 /* google fonts style */
 
-.logo-font{
-    color: #181818;
-    font-family: Open Sans;
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+.logo-font {
+  color: #181818;
+  font-family: Open Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
 
-.primary-text-color{
-    color: #FD6E0A;
+.primary-text-color {
+  color: #fd6e0a;
 }
 
-.btn-primary{
-    border-radius: 5px;
-    background: #FD6E0A;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-    border: 0;
-    padding: 15px 35px;
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  border: 0;
+  padding: 15px 35px;
+  
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
 }
 
 nav ul li {
-    list-style: none;
-    padding-left: 25px;
-    display: flex;
-    align-items: center;
-    
+  list-style: none;
+  padding-left: 25px;
+
+  margin-left: 30px;
 }
 
-nav ul li a{
-    text-decoration: none;
-    color: #474747;
-    font-size: 20px;
-    font-weight: 400;
-    
+nav ul li a {
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* header style */
+.header {
+  background-color: #fff8f3;
+  background-image: url("../assets/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.banner {
+  padding: 30px 0px 0px 150px;
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+
+.profile-pic {
+  width: 584px;
+  height: 676px;
+  margin-left: 175px;
+}
+.banner-gretting {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
+}
+.banner-title {
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.banner-description {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 30px;
 }
